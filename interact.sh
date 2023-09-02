@@ -16,6 +16,5 @@ docker run \
 	-v "/tmp/.X11-unix:/tmp/.X11-unix:rw" \
 	--privileged \
 	--gpus all \
-	--net=host \
 	-v $exec_pwd/mount/Project:$home_dir/Unity/Project \
 	$image:$tag
