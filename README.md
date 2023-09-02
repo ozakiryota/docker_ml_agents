@@ -16,6 +16,6 @@
 7. Assets > ML-Agents > Examples > 3DBall > Scenes > 3DBall
 8. Open another terminal
 9. Check the container id with `docker ps`
-10. docker exec -it xxxxxxxxxxxx bash
+10. `docker exec -it xxxxxxxxxxxx bash`
 11. `mlagents-learn ./config/ppo/3DBall.yaml --run-id=first3DBallRun`
 12. Click the play button on Unity
